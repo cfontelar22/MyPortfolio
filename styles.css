@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -9,25 +11,79 @@ header {
     color: #fff;
     padding: 1em;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-header nav a {
-    color: #fff;
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background: #444;
+}
+
+nav ul li {
+    display: inline;
     margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 section {
     padding: 2em;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
-.project {
-    border: 1px solid #ddd;
-    margin: 1em 0;
-    padding: 1em;
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 5px;
 }
 
-#contact a {
+.job, .edu {
+    margin-bottom: 20px;
+}
+
+a {
     color: #333;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Transitions */
+section, header, nav ul {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+}
+
+section.visible, header.visible, nav ul.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
