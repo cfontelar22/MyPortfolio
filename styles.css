@@ -2,18 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    overflow: hidden;
 }
 
 header {
     background: #333;
     color: #fff;
-    padding: 1em;
+    padding: 2em;
     text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 header h1 {
@@ -26,64 +22,44 @@ header p {
     font-size: 1.2em;
 }
 
-nav ul {
+#side-nav {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1em;
+    z-index: 1000;
+}
+
+#side-nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
-    background: #444;
+    margin: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 1em;
+#side-nav ul li {
+    margin: 1em 0;
 }
 
-nav ul li a {
+#side-nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-section {
+.section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
     padding: 2em;
-    margin: 20px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 8px;
 }
 
-section h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+.section h2 {
+    margin: 0;
+    font-size: 2em;
     color: #333;
-    border-bottom: 2px solid #f4f4f4;
-    padding-bottom: 5px;
-}
-
-.job, .edu {
-    margin-bottom: 20px;
-}
-
-a {
-    color: #333;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Transitions */
-section, header, nav ul {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.5s ease-in-out;
-}
-
-section.visible, header.visible, nav ul.visible {
-    opacity: 1;
-    transform: translateY(0);
 }
