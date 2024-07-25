@@ -40,18 +40,20 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Professional Background.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a passionate and experienced Computer System and Network Administrator, as well as a Network Engineer, 
+        with three years of hands-on experience in crafting sophisticated network solutions, optimizing systems, and bolstering cybersecurity. 
+        I hold a degree in Bachelor of Science in Computer Network Administration and
+        I am currently advancing my expertise through a Diploma in Full Stack Web Development at Red River College Polytechnic.
+        Throughout my career, I have thrived in various roles, including Full Stack Web Developer, IT Helpdesk Specialist, and Network Engineer. 
+        My journey has involved spearheading and managing complex projects, enhancing system performance, and implementing robust security measures. 
+        My dedication to continuous learning and problem-solving drives me to deliver innovative solutions and exceed expectations in every project I undertake.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
