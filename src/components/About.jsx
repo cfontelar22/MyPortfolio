@@ -48,7 +48,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I am a passionate and experienced Computer System and Network Administrator, as well as a Network Engineer, 
-        with three years of hands-on experience in crafting sophisticated network solutions, optimizing systems, and bolstering cybersecurity. 
+        with three years of hands-on experience in crafting sophisticated network solutions, optimizing systems, and enhancing cybersecurity. 
         I hold a degree in Bachelor of Science in Computer Network Administration and
         I am currently advancing my expertise through a Diploma in Full Stack Web Development at Red River College Polytechnic.
         Throughout my career, I have thrived in various roles, including Full Stack Web Developer, IT Helpdesk Specialist, and Network Engineer. 
