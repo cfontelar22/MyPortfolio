@@ -31,5 +31,10 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
     "vite": "^4.0.0"
-  }
+  },
+  "description": "<div align=\"center\">\r   <br />\r     <a href=\"https://youtu.be/0fYi8SGA20k?feature=shared\" target=\"_blank\">\r       <img src=\"https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6\" alt=\"Project Banner\">\r     </a>\r   <br />",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
