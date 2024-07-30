@@ -117,7 +117,7 @@ const technologies = [
 const experiences = [
   {
     title: "Network Engineer",
-    company_name: "Achieve Without Borders Inc",
+    company_name: "Achieve Without Borders Inc.",
     icon: achieve, 
     iconBg: "#383E56",
     date: "June 2019 - July 2020",
