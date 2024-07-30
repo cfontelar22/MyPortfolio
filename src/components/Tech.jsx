@@ -17,3 +17,4 @@ const Tech = () => {
 };
 
 export default SectionWrapper(Tech, "");
+
