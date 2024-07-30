@@ -47,13 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a passionate and experienced Computer System and Network Administrator, as well as a Network Engineer, 
-        with three years of hands-on experience in crafting sophisticated network solutions, optimizing systems, and enhancing cybersecurity. 
-        I hold a degree in Bachelor of Science in Computer Network Administration and
-        I am currently advancing my expertise through a Diploma in Full Stack Web Development at Red River College Polytechnic.
-        Throughout my career, I have thrived in various roles, including Full Stack Web Developer, IT Helpdesk Specialist, and Network Engineer. 
-        My journey has involved spearheading and managing complex projects, enhancing system performance, and implementing robust security measures. 
-        My dedication to continuous learning and problem-solving drives me to deliver innovative solutions and exceed expectations in every project I undertake.
+        I am an experienced Computer System and Network Administrator and Network Engineer with more than three years of hands-on experience in designing advanced network solutions, optimizing systems, and strengthening cybersecurity. 
+        I hold a Bachelor of Science in Computer Network Administration and am currently pursuing a Diploma in Full Stack Web Development at Red River College Polytechnic. 
+        In my career, I have excelled in roles such as Computer System and Network Administrator, IT Helpdesk Specialist, and Network Engineer. 
+        My work has involved leading and managing complex projects, improving system performance, and implementing strong security measures. 
+        My commitment to continuous learning and problem-solving drives me to deliver innovative solutions and consistently exceed expectations in every project I undertake.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
