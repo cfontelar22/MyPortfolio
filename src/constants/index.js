@@ -204,7 +204,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Ecommerce Project",
+    name: "E-Commerce Project",
     description:
       "A web-based e-commerce platform built using Ruby on Rails, which allows users to browse products, add items to a cart, and complete purchases through a streamlined checkout process using stripe.",
     tags: [
