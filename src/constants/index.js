@@ -178,27 +178,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Working with Christma for the past five years has been a blessing, as your outstanding work ethic, unwavering dedication, and exceptional performance have made you an invaluable asset to our team.",
+    name: "Luke Benedict Garcia",
+    designation: "Technical Head and CEO",
+    company: "L.B.G IT Solutions and Services",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Christma's expertise and attention to detail have significantly improved our online presence. Their dedication is unmatched.",
+    name: "Nathaniel Abad",
+    designation: "IT Ops, Head",
+    company: "Multisys Technologies Corporation",
+    image: "https://randomuser.me/api/portraits/men/26.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Working with Christma was a game changer for our digital strategy. Their innovative approach and commitment delivered exceptional results.",
+    name: "Emily Davis",
+    designation: "Branch Compliance Manager",
+    company: "Aviso Wealth",
+    image: "https://randomuser.me/api/portraits/women/5.jpg",
   },
 ];
 
