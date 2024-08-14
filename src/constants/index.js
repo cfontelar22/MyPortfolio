@@ -206,7 +206,7 @@ const projects = [
   {
     name: "E-Commerce Project",
     description:
-      "A web-based e-commerce platform built using Ruby on Rails, which allows users to browse products, add items to a cart, and complete purchases through a streamlined checkout process using stripe.",
+      "A web-based e-commerce platform built using Ruby on Rails, which allows users to browse products, add items to a cart, and complete purchases through a streamlined checkout process using Stripe. The platform features a responsive design and an intuitive user interface, ensuring a seamless shopping experience across all devices. Additionally, it integrates with a PostgreSQL database for data management and employs Bootstrap for consistent styling across the application.",
     tags: [
       {
         name: "ruby-on-rails",
@@ -227,7 +227,7 @@ const projects = [
   {
     name: "VStim Project",
     description:
-      "A session treatment platform for stroke patients, leveraging Electron.js to provide detailed session summaries and performance metrics, enhancing patient rehabilitation.",
+      "A session treatment platform for stroke patients, leveraging Electron.js to provide detailed session summaries and performance metrics, enhancing patient rehabilitation. The platform offers real-time data visualization through Chart.js, giving healthcare providers actionable insights. It also supports offline functionality, allowing users to continue working without an internet connection, making it reliable in various healthcare settings.",
     tags: [
       {
         name: "electronjs",
@@ -246,10 +246,10 @@ const projects = [
     source_code_link: "https://github.com/bitprojectspace/VStim-wristband",
   },
   {
-    name: "Client Portal",
+    name: "Red River Client Portal",
     description:
-      "A comprehensive client portal for Red River College, developed as part of a co-op term, facilitating project submissions and client interactions through a modern web interface powered by Supabase.",
-    tags: [
+      "A modern, user-friendly client portal developed during a co-op term at Red River College. This portal streamlines project submissions and client interactions through an intuitive web interface. Built with React and powered by Supabase for seamless data management, the portal enables clients to submit detailed project nominations, upload relevant files, and select project categories with ease. Key features include dynamic form validation, real-time user authentication.",
+      tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
